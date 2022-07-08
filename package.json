@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^4.0.7",
+    "animejs": "^3.2.1",
+    "blueimp-gallery": "^3.4.0"
+  }
+}

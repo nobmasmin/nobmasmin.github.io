@@ -1,0 +1,202 @@
+html{
+    font-family: 'Montserrat';
+    min-height: 100%;
+    overflow-y: scroll;
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    visibility: visible;
+    box-shadow: 1px 13px 19px -2px rgba(0,0,0,0.68);
+}
+
+.sub-left{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.sub-right{
+    margin: 2%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.sub-right a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.icon img{
+    width:80%;
+    height:auto;
+    margin: 5%;
+}
+
+.title{
+    text-decoration: none;
+    color: black;
+    margin-top: 11%;
+    margin-bottom: -100em;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.big-title{
+    height: 8em;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    background-image: url('./Resources/ship-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    transition: 1s;
+}
+
+.big-title:hover{
+    background-size: 105%;
+    transition: 1s;
+}
+
+.big-title h1{
+    color: white;
+    padding-top: 3%;
+    
+}
+
+.tentang{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    box-shadow: 1px 13px 19px -2px rgba(0,0,0,0.28);
+}
+
+.tentang h2{
+    padding-left: 4%;
+}
+
+.tentang p{
+    padding-left: 4%;
+    padding-right: 15%;
+}
+
+.tentang img{
+    width: 30%;
+    height: auto;
+    position: relative;
+    right: 3%;
+}
+
+.misi-visi {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.misi-visi h2{
+    padding-right: 4%;
+    text-align: right;
+}
+
+.misi-visi p, h3{
+    text-align: right;
+    padding-right: 4%;
+    padding-left: 20%;
+}
+
+.misi-visi img{
+    width: 35%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.objektif{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    box-shadow: 1px 13px 19px -2px rgba(0,0,0,0.28);
+}
+
+.objektif h2{
+    padding-left: 4%;
+}
+
+.objektif p{
+    padding-left: 4%;
+    padding-right: 25%;
+}
+
+.objektif img{
+    width: 28%;
+    height: auto;
+    padding-right: 2%;
+}
+
+.Product{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.Product h2{
+    padding-left: 4%;
+}
+
+.Product p{
+    padding-left: 4%;
+    padding-right: 50%;
+}
+
+.Product img{
+    width: auto;
+    height: 250px;
+}
+
+.list-barang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.splide{
+    margin-left: 10%;
+}
+
+.Contact{
+    text-align: center;
+    color: white;
+    background-color: rgb(55, 55, 55);
+}
